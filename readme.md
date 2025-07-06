@@ -1,3 +1,5 @@
+# O projektu
+
 Namucio me je malo prvi deo projekta, dok sam napravio Puppeteer da radi, iz razloga sto Stake.com ima Cloudflare zastitu, pa mi je trebalo malo vremena da pronadjem i predjem na Puppeteer-extra i Stealth plugin, pa posle za isto, konfiguracija za Dockerfile.
 
 Takodje Docker nisam uspevao da pokrenem, pa sam posle izvesnog vremena zakljucio da mi nije upaljena u BIOS-u neka virtuelizacija na procesoru.
@@ -15,16 +17,15 @@ Nisam ovo implementirao jer mi deluje prekomplikovano i za veci broj korisnika b
 Napravio sam mali API sa pozivima od kojih su neki za testiranje a neki su deo zadatka, takodje i jednu funkciju koja olaksava testiranje jednog od izvestaja.
 Sve dostupne rute mozes videti GET pozivom na "/", gde su opisane njihova svrha i nacin koriscenja.
 
-.env file
+# .env
 
-# App
+```
 
 PORT=3010
-
-# PostgreSQL connection
 
 PGHOST=postgres
 PGPORT=5433
 PGUSER=dev_junior
 PGPASSWORD=mebit
 PGDATABASE=starter
+```
